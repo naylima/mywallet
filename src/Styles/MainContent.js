@@ -71,6 +71,7 @@ const MainContent = styled.div`
         border-radius: 5px;
         cursor: pointer;
 
+
         :hover {
             filter: brightness(120%);
         }
