@@ -30,7 +30,7 @@ export const Main = styled.div`
 
     form {
         height: auto;
-        margin-top: 90px;
+        margin-top: 40px;
         display: flex;
         flex-direction: column;
         font-family: 'Raleway';
@@ -59,6 +59,16 @@ export const Main = styled.div`
         :focus {
             outline: none;
         }  
+    }
+
+    input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+    }
+    input[type=number] { 
+    -moz-appearance: textfield;
+    appearance: textfield;
+
     }
 
     button {

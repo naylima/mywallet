@@ -28,6 +28,7 @@ export default function SignUp() {
         setIsDisabled(true);
         
         promise.then( () => {
+            alert("Usuário cadastrado com sucesso!");
             navigate("/")
         });
         
